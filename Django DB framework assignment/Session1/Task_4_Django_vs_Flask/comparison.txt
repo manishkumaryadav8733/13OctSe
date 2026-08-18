@@ -1,0 +1,6 @@
+SESSION 1 - TASK 4: Django vs Flask
+
+Django is a powerful and feature-rich Python web framework, while Flask is a lightweight and flexible framework. Django provides built-in features such as ORM, authentication, URL routing, and an admin panel. For an application like Zomato, Django would be a better choice because it provides many features out of the box and is suitable for large applications. Flask is often preferred for smaller applications, APIs, and projects where developers want more control over the components.
+
+Example:
+For a food-delivery application like Zomato, Django can speed up development because many common web-development features are already included.

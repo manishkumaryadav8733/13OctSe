@@ -1,0 +1,33 @@
+SESSION 1 - TASK 3: Django Project Structure
+
+foodiehub_project/
+│
+├── manage.py
+│
+└── foodiehub_project/
+    ├── __init__.py
+    ├── settings.py
+    ├── urls.py
+    ├── wsgi.py
+    └── asgi.py
+
+File purposes:
+
+manage.py
+- Command-line utility for managing the Django project.
+- Used for commands such as runserver, migrate, createsuperuser, etc.
+
+settings.py
+- Contains project configuration.
+- Defines installed apps, middleware, database, templates, static files, timezone, etc.
+
+urls.py
+- Defines URL patterns/routes for the project.
+- Maps URLs to views or other URL configurations.
+
+wsgi.py
+- Entry point for deploying/running Django using WSGI-compatible servers.
+
+asgi.py
+- Entry point for deploying/running Django using ASGI-compatible servers.
+- Supports asynchronous capabilities.
